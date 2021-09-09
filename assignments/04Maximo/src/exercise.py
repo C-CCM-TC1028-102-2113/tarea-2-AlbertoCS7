@@ -1,5 +1,14 @@
 def main():
     #escribe tu código abajo de esta línea
+    num1 = int(input("Ingresa el primer número: "))
+    num2 = int(input("Ingresa el segundo número: "))
+    num3 = int(input("Ingresa el tercer número: "))
+    if(num2 < num1 > num3):
+        print(num1)
+    else(num1 < num2 > num3): ##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
+        print(num2)
+    else(num1 < num3 > num2):##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
+        print(num3)
     pass
 
 
