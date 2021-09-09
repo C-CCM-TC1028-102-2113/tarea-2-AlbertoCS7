@@ -5,15 +5,15 @@ def main():
     z = int(input("Ingresa el tercer número: "))
     if(x<y and y<z):
         print( x, y, z)
-    else(y<x and x<z):
+    else(y<x and x<z):  ##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
         print( y, x, z)
-    else(z<x and x<y):
+    else(z<x and x<y): ##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
         print(z, x, y)
-    else(z<y and y<x): 
+    else(z<y and y<x): ##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
         print(z, y, x) 
-    else(x<z and z<y)
+    else(x<z and z<y)##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
         print(x, z, y)     
-    else(y<z and z<x):
+    else(y<z and z<x):##EL ELSE NO LLEVA CONDICION, SU SINTAXIS ES ELSE: UNICAMENTE
         print(y, z, x)
     pass
 
